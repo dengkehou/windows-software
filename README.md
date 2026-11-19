@@ -12,7 +12,6 @@
 | [Volume²](https://github.com/irzyxa/Volume2)                  | 滚轮/热键调音量，可换肤 OSD                | 26.1.0.471，皮肤 Windows 11 v3 Dark |
 | [Windhawk](https://windhawk.net)                              | 系统 UI 模组平台，hook 注入 explorer.exe | 1.7.3，见下方 mod 列表                 |
 | [NetTime](https://timensecure.com/nettime)                    | NTP 网络校时                        | 解决系统时间漂移                         |
-| [T-Clock Redux](https://github.com/White-Tiger/T-Clock)       | 任务栏时钟替换                         | 与 Windhawk 时钟 mod 功能重叠，二选一       |
 
 ### Windhawk mods
 
