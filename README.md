@@ -1,6 +1,6 @@
-# Windows Setup
+# Windows Software
 
-我的 Windows 装机清单。换机重装照着装，附每项的去留理由。
+我的 Windows 软件清单。换机重装照着装，附每项的去留理由。
 
 > Windows 11 · 1920×1080 @125% · AMD 核显
 
