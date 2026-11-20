@@ -6,13 +6,13 @@
 
 ## 系统增强
 
-| 软件                                                            | 用途                          | 授权  | 源码    | 备注                      |
-| ------------------------------------------------------------- | --------------------------- | --- | ----- | ----------------------- |
-| [Twinkle Tray](https://github.com/xanderfrangos/twinkle-tray) | 托盘调显示器亮度，支持 DDC/CI          | 免⁠费 | 开⁠源   | 托盘滚轮，步进 2%              |
-| [Volume²](https://github.com/irzyxa/Volume2)                  | 滚轮/热键调音量，可换肤 OSD            | 免⁠费 | 部分⁠开源 | 皮肤 Windows 11 v3 Dark   |
-| [Windhawk](https://windhawk.net)                              | 系统 UI 模组平台，hook 注入 explorer | 免⁠费 | 开⁠源   | 见下方 mod 列表              |
-| [腾讯桌面整理](https://guanjia.qq.com/product/zmzl/)                | 桌面图标分区、自动归类                 | 免⁠费 | 闭⁠源   | -                       |
-| ~~[NetTime](https://timensecure.com/nettime)~~                | NTP 网络校时（已停用）               | 免⁠费 | 闭⁠源   | 与 w32time 冲突，反使系统慢 1 小时 |
+| 软件                                                            | 用途                          | 授权  | 源码      | 备注                      |
+| ------------------------------------------------------------- | --------------------------- | --- | ------- | ----------------------- |
+| [Twinkle Tray](https://github.com/xanderfrangos/twinkle-tray) | 托盘调显示器亮度，支持 DDC/CI          | 免⁠费 | 开⁠源     | 托盘滚轮，步进 2%              |
+| [Volume²](https://github.com/irzyxa/Volume2)                  | 滚轮/热键调音量，可换肤 OSD            | 免⁠费 | 部⁠分⁠开⁠源 | 皮肤 Windows 11 v3 Dark   |
+| [Windhawk](https://windhawk.net)                              | 系统 UI 模组平台，hook 注入 explorer | 免⁠费 | 开⁠源     | 见下方 mod 列表              |
+| [腾讯桌面整理](https://guanjia.qq.com/product/zmzl/)                | 桌面图标分区、自动归类                 | 免⁠费 | 闭⁠源     | -                       |
+| ~~[NetTime](https://timensecure.com/nettime)~~                | NTP 网络校时（已停用）               | 免⁠费 | 闭⁠源     | 与 w32time 冲突，反使系统慢 1 小时 |
 
 ### Windhawk mods
 
@@ -54,20 +54,20 @@
 
 ## 开发
 
-| 软件                                                                  | 用途                        | 授权  | 源码    | 备注                 |
-| ------------------------------------------------------------------- | ------------------------- | --- | ----- | ------------------ |
-| [VS Code](https://code.visualstudio.com)                            | 主力编辑器                     | 免⁠费 | 开⁠源   | 官方构建含微软组件          |
-| [IntelliJ IDEA](https://www.jetbrains.com/idea/)                    | Java IDE                  | 付⁠费 | 部分⁠开源 | 社区版免费且够用，学生可申请教育授权 |
-| [PyCharm](https://www.jetbrains.com/pycharm/)                       | Python IDE                | 付⁠费 | 部分⁠开源 | 社区版免费且够用，学生可申请教育授权 |
-| [CLion](https://www.jetbrains.com/clion/)                           | C/C++ IDE                 | 付⁠费 | 闭⁠源   | 无免费版，学生可申请教育授权     |
-| [Android Studio](https://developer.android.com/studio)              | Android 开发                | 免⁠费 | 闭⁠源   | 基于 IntelliJ 社区版    |
-| [Git](https://git-scm.com)                                          | 版本控制                      | 免⁠费 | 开⁠源   | -                  |
-| [Node.js](https://nodejs.org)                                       | JS 运行时                    | 免⁠费 | 开⁠源   | -                  |
-| [Python](https://www.python.org)                                    | Python 解释器                | 免⁠费 | 开⁠源   | 另有 Java 8 JDK      |
-| [Qoder CN](https://qoder.com)                                       | AI 编程 IDE                 | 免⁠费 | 闭⁠源   | 额度限制，日常开发够用        |
-| [CC Switch](https://github.com/farion1231/cc-switch)                | 切换 Claude Code / Codex 配置 | 免⁠费 | 开⁠源   | -                  |
-| [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) | DeepSeek 官方 Agent 框架      | 免⁠费 | 开⁠源   | 一切皆插件              |
-| [DBeaver](https://dbeaver.io)                                       | 数据库客户端（MySQL/PG/SQLite）   | 免⁠费 | 开⁠源   | 企业版付费，待安装          |
+| 软件                                                                  | 用途                        | 授权  | 源码      | 备注                 |
+| ------------------------------------------------------------------- | ------------------------- | --- | ------- | ------------------ |
+| [VS Code](https://code.visualstudio.com)                            | 主力编辑器                     | 免⁠费 | 开⁠源     | 官方构建含微软组件          |
+| [IntelliJ IDEA](https://www.jetbrains.com/idea/)                    | Java IDE                  | 付⁠费 | 部⁠分⁠开⁠源 | 社区版免费且够用，学生可申请教育授权 |
+| [PyCharm](https://www.jetbrains.com/pycharm/)                       | Python IDE                | 付⁠费 | 部⁠分⁠开⁠源 | 社区版免费且够用，学生可申请教育授权 |
+| [CLion](https://www.jetbrains.com/clion/)                           | C/C++ IDE                 | 付⁠费 | 闭⁠源     | 无免费版，学生可申请教育授权     |
+| [Android Studio](https://developer.android.com/studio)              | Android 开发                | 免⁠费 | 闭⁠源     | 基于 IntelliJ 社区版    |
+| [Git](https://git-scm.com)                                          | 版本控制                      | 免⁠费 | 开⁠源     | -                  |
+| [Node.js](https://nodejs.org)                                       | JS 运行时                    | 免⁠费 | 开⁠源     | -                  |
+| [Python](https://www.python.org)                                    | Python 解释器                | 免⁠费 | 开⁠源     | 另有 Java 8 JDK      |
+| [Qoder CN](https://qoder.com)                                       | AI 编程 IDE                 | 免⁠费 | 闭⁠源     | 额度限制，日常开发够用        |
+| [CC Switch](https://github.com/farion1231/cc-switch)                | 切换 Claude Code / Codex 配置 | 免⁠费 | 开⁠源     | -                  |
+| [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) | DeepSeek 官方 Agent 框架      | 免⁠费 | 开⁠源     | 一切皆插件              |
+| [DBeaver](https://dbeaver.io)                                       | 数据库客户端（MySQL/PG/SQLite）   | 免⁠费 | 开⁠源     | 企业版付费，待安装          |
 
 ## 网络
 
