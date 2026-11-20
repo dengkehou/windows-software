@@ -6,14 +6,17 @@
 
 ## 系统增强
 
-| 软件                                                            | 用途                              | 备注                               |
-| ------------------------------------------------------------- | ------------------------------- | -------------------------------- |
-| [Twinkle Tray](https://github.com/xanderfrangos/twinkle-tray) | 托盘调显示器亮度，支持 DDC/CI 外接屏          | 1.17.2，托盘滚轮，步进 2%                |
-| [Volume²](https://github.com/irzyxa/Volume2)                  | 滚轮/热键调音量，可换肤 OSD                | 26.1.0.471，皮肤 Windows 11 v3 Dark |
-| [Windhawk](https://windhawk.net)                              | 系统 UI 模组平台，hook 注入 explorer.exe | 1.7.3，见下方 mod 列表                 |
-| [NetTime](https://timensecure.com/nettime)                    | NTP 网络校时                        | 解决系统时间漂移                         |
+| 软件                                                            | 用途                              | 授权 | 源码   | 备注                      |
+| ------------------------------------------------------------- | ------------------------------- | -- | ---- | ----------------------- |
+| [Twinkle Tray](https://github.com/xanderfrangos/twinkle-tray) | 托盘调显示器亮度，支持 DDC/CI 外接屏          | 免费 | 开源   | 托盘滚轮，步进 2%              |
+| [Volume²](https://github.com/irzyxa/Volume2)                  | 滚轮/热键调音量，可换肤 OSD                | 免费 | 部分开源 | 皮肤 Windows 11 v3 Dark   |
+| [Windhawk](https://windhawk.net)                              | 系统 UI 模组平台，hook 注入 explorer.exe | 免费 | 开源   | 见下方 mod 列表              |
+| [腾讯桌面整理](https://guanjia.qq.com/product/zmzl/)                | 桌面图标分区、自动归类                     | 免费 | 闭源   | -                       |
+| ~~[NetTime](https://timensecure.com/nettime)~~                | NTP 网络校时（已停用）                   | 免费 | 闭源   | 与 w32time 冲突，反使系统慢 1 小时 |
 
 ### Windhawk mods
+
+两者均为开源，托管在 [windhawk-mods](https://github.com/ramensoftware/windhawk-mods)。
 
 | Mod                             | 用途                          | 配置                     |
 | ------------------------------- | --------------------------- | ---------------------- |
@@ -22,74 +25,70 @@
 
 ## 文件与搜索
 
-| 软件                                      | 用途            | 备注                 |
-| --------------------------------------- | ------------- | ------------------ |
-| [Everything](https://www.voidtools.com) | 极速文件名搜索       | 1.4.1.1024，NTFS 索引 |
-| [7-Zip](https://www.7-zip.org)          | 压缩解压          | 26.06              |
-| [ImageGlass](https://imageglass.org)    | 轻量看图，替代照片查看器  | 9.4.1              |
-| [PixPin](https://pixpinapp.com)         | 截图、贴图、OCR、长截图 | 3.6.6              |
+| 软件                                      | 用途            | 授权 | 源码 | 备注      |
+| --------------------------------------- | ------------- | -- | -- | ------- |
+| [Everything](https://www.voidtools.com) | 极速文件名搜索       | 免费 | 闭源 | NTFS 索引 |
+| [7-Zip](https://www.7-zip.org)          | 压缩解压          | 免费 | 开源 | -       |
+| [ImageGlass](https://imageglass.org)    | 轻量看图，替代照片查看器  | 免费 | 开源 | -       |
+| [PixPin](https://pixpinapp.com)         | 截图、贴图、OCR、长截图 | 免费 | 闭源 | -       |
 
 ## 媒体
 
-| 软件                                      | 用途            | 备注       |
-| --------------------------------------- | ------------- | -------- |
-| [PotPlayer](https://potplayer.daum.net) | 本地视频播放器，格式支持全 | 24.12.16 |
-| [OBS Studio](https://obsproject.com)    | 录屏、直播推流       | 32.1.2   |
-| [calibre](https://calibre-ebook.com)    | 电子书管理与格式转换    | 9.5.0    |
+| 软件                                      | 用途            | 授权 | 源码 | 备注 |
+| --------------------------------------- | ------------- | -- | -- | -- |
+| [PotPlayer](https://potplayer.daum.net) | 本地视频播放器，格式支持全 | 免费 | 闭源 | -  |
+| [OBS Studio](https://obsproject.com)    | 录屏、直播推流       | 免费 | 开源 | -  |
+| [calibre](https://calibre-ebook.com)    | 电子书管理与格式转换    | 免费 | 开源 | -  |
 
 ## 写作与知识
 
-| 软件                               | 用途                      | 备注         |
-| -------------------------------- | ----------------------- | ---------- |
-| [Obsidian](https://obsidian.md)  | 本地 Markdown 笔记库         | 1.14.5     |
-| [Typora](https://typora.io)      | Markdown 编辑器，所见即所得      | 1.0.4      |
-| [Xmind](https://xmind.app)       | 思维导图                    | 26.5       |
-| [Zotero](https://www.zotero.org) | 文献管理、引用插入               | 8.0.4      |
-| [Pandoc](https://pandoc.org)     | 文档格式互转（md/docx/pdf/tex） | 3.9        |
-| Microsoft Office 2019            | 办公套件                    | 16.0.19127 |
-| WPS Office                       | 办公套件（与 Office 并存）       | 12.1.0     |
+| 软件                               | 用途                      | 授权         | 源码 | 备注                   |
+| -------------------------------- | ----------------------- | ---------- | -- | -------------------- |
+| [Obsidian](https://obsidian.md)  | 本地 Markdown 笔记库         | 免费｜同步付费    | 闭源 | 本地使用完全免费             |
+| [Typora](https://typora.io)      | Markdown 编辑器，所见即所得      | 付费｜试用 15 天 | 闭源 | 可用 VS Code 加插件替代     |
+| [Xmind](https://xmind.app)       | 思维导图                    | 付费｜免费版受限   | 闭源 | 免费版带水印，导出受限          |
+| [Zotero](https://www.zotero.org) | 文献管理、引用插入               | 免费         | 开源 | -                    |
+| [Pandoc](https://pandoc.org)     | 文档格式互转（md/docx/pdf/tex） | 免费         | 开源 | -                    |
+| Microsoft Office 2019            | 办公套件                    | 付费｜无免费版    | 闭源 | 学校多提供 Office 365 教育版 |
+| WPS Office                       | 办公套件                    | 免费｜专业版付费   | 闭源 | 与 Office 并存          |
 
 ## 开发
 
-| 软件                                                     | 用途                                | 备注            |
-| ------------------------------------------------------ | --------------------------------- | ------------- |
-| [VS Code](https://code.visualstudio.com)               | 主力编辑器                             | 1.143.1       |
-| [IntelliJ IDEA](https://www.jetbrains.com/idea/)       | Java IDE                          | 2021.3.3      |
-| [PyCharm](https://www.jetbrains.com/pycharm/)          | Python IDE                        | 2025.3.1      |
-| [CLion](https://www.jetbrains.com/clion/)              | C/C++ IDE                         | 2026.2.4      |
-| [Android Studio](https://developer.android.com/studio) | Android 开发                        | —             |
-| [Git](https://git-scm.com)                             | 版本控制                              | 2.54.0        |
-| [Node.js](https://nodejs.org)                          | JS 运行时                            | 24.18.0       |
-| [Python](https://www.python.org)                       | 3.10.4                            | 另有 Java 8 JDK |
-| [Qoder CN](https://qoder.com)                          | AI 编程 IDE                         | 0.5.1         |
-| [CC Switch](https://github.com/farion1231/cc-switch)   | 一键切换 Claude Code / Codex 的 API 配置 | 3.19.2        |
-| DeepSeek Harness                                       | DeepSeek 相关工具                     | 0.2.1-rc.5    |
-| [SQLite Expert](https://www.sqliteexpert.com)          | SQLite 数据库管理                      | 5.4.34        |
+| 软件                                                                  | 用途                                    | 授权       | 源码   | 备注                   |
+| ------------------------------------------------------------------- | ------------------------------------- | -------- | ---- | -------------------- |
+| [VS Code](https://code.visualstudio.com)                            | 主力编辑器                                 | 免费       | 开源   | 官方构建含微软组件            |
+| [IntelliJ IDEA](https://www.jetbrains.com/idea/)                    | Java IDE                              | 付费｜社区版免费 | 部分开源 | 社区版够用，学生可申请教育授权      |
+| [PyCharm](https://www.jetbrains.com/pycharm/)                       | Python IDE                            | 付费｜社区版免费 | 部分开源 | 社区版够用，学生可申请教育授权      |
+| [CLion](https://www.jetbrains.com/clion/)                           | C/C++ IDE                             | 付费｜无免费版  | 闭源   | 学生可申请教育授权            |
+| [Android Studio](https://developer.android.com/studio)              | Android 开发                            | 免费       | 闭源   | 基于 IntelliJ 社区版      |
+| [Git](https://git-scm.com)                                          | 版本控制                                  | 免费       | 开源   | -                    |
+| [Node.js](https://nodejs.org)                                       | JS 运行时                                | 免费       | 开源   | -                    |
+| [Python](https://www.python.org)                                    | Python 解释器                            | 免费       | 开源   | 另有 Java 8 JDK        |
+| [Qoder CN](https://qoder.com)                                       | AI 编程 IDE                             | 免费｜额度限制  | 闭源   | 免费额度够日常开发            |
+| [CC Switch](https://github.com/farion1231/cc-switch)                | 一键切换 Claude Code / Codex 的 API 配置     | 免费       | 开源   | -                    |
+| [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) | DeepSeek 官方 Agent 框架，一切皆插件            | 免费       | 开源   | -                    |
+| [DBeaver](https://dbeaver.io)                                       | 通用数据库客户端（MySQL / PostgreSQL / SQLite） | 免费｜企业版付费 | 开源   | 待安装，替代 SQLite Expert |
 
 ## 网络
 
-| 软件                                                                | 用途             | 备注           |
-| ----------------------------------------------------------------- | -------------- | ------------ |
-| [Clash Verge](https://github.com/clash-verge-rev/clash-verge-rev) | Clash 客户端，规则分流 | 2.4.7        |
-| [v2rayN](https://github.com/2dust/v2rayN)                         | V2Ray/Xray 客户端 | 与 Clash 功能重叠 |
+| 软件                                                                | 用途             | 授权 | 源码 | 备注           |
+| ----------------------------------------------------------------- | -------------- | -- | -- | ------------ |
+| [Clash Verge](https://github.com/clash-verge-rev/clash-verge-rev) | Clash 客户端，规则分流 | 免费 | 开源 | -            |
+| [v2rayN](https://github.com/2dust/v2rayN)                         | V2Ray/Xray 客户端 | 免费 | 开源 | 与 Clash 功能重叠 |
+
+## AI 助手
+
+| 软件                                    | 用途             | 授权      | 源码 |
+| ------------------------------------- | -------------- | ------- | -- |
+| [腾讯元宝](https://yuanbao.tencent.com)   | AI 对话助手（腾讯）    | 免费      | 闭源 |
+| [豆包](https://www.doubao.com)          | AI 对话助手（字节）    | 免费      | 闭源 |
+| [千问](https://tongyi.aliyun.com)       | AI 对话助手（阿里）    | 免费      | 闭源 |
+| [WorkBuddy](https://www.workbuddy.cn) | AI Agent 桌面客户端 | 免费｜额度限制 | 闭源 |
 
 ## 协作与通讯
 
-微信 · QQ · 飞书 · 钉钉 · 腾讯会议 · 元宝 · 豆包 · 千问
-
-## 网盘
-
-阿里云盘 · 百度网盘 · 夸克网盘
+微信 · QQ · 飞书 · 钉钉 · 腾讯会议
 
 ## 其他
 
-MuMu 模拟器 · DOSBox · 迅雷 · 同花顺 · 通达信 · 腾讯桌面整理 · 搜狗输入法 · WorkBuddy
-
----
-
-## 备注
-
-- **重叠项**：T-Clock Redux 与 Windhawk 的 Taskbar Clock Customization 都在改任务栏时钟，同时启用可能互相覆盖。
-- **重叠项**：Clash Verge 与 v2rayN 都会接管系统代理，建议只留一个常驻。
-- **重复安装**：同花顺存在 9.60.81 与 9.60.90 两个版本。
-- **并存**：Office 2019 与 WPS 同时安装，注意文件关联归属。
+MuMu 模拟器 · 迅雷 · 同花顺 · 通达信 · 搜狗输入法
